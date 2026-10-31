@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/rounded_edittext_bg"
+    android:backgroundTint="#FFFFFF">
+
+    <!-- Drag Handle -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:background="#D1D5DB"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvModalTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table 4"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#111827"/>
+
+    <TextView
+        android:id="@+id/tvModalOrderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order ID: ..."
+        android:textSize="12sp"
+        android:textColor="#6B7280"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E5E7EB"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Items List -->
+    <LinearLayout
+        android:id="@+id/containerModalItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E5E7EB"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Total -->
+    <TextView
+        android:id="@+id/tvModalTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: ৳0.00"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#111827"
+        android:gravity="end"
+        android:layout_marginBottom="24dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCloseModal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Close"
+        app:backgroundTint="#F3F4F6"
+        android:textColor="#111827"
+        app:cornerRadius="12dp"
+        app:elevation="0dp"/>
+
+</LinearLayout>

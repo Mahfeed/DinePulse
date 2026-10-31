@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F9FA">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Venue Settings"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#111827" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackToManager"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="#374151"
+            app:strokeColor="#D1D5DB" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- RESTAURANT DETAILS -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Restaurant Details" android:textColor="#111827" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="12dp"/>
+            <EditText android:id="@+id/etSettingsVenueName" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Venue Name" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="12dp" />
+            <EditText android:id="@+id/etSettingsVenueBio" android:layout_width="match_parent" android:layout_height="70dp" android:hint="Short Bio (e.g. World-famous fried chicken...)" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="12dp" />
+            <EditText android:id="@+id/etSettingsRating" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Rating Text (e.g. 4.8 (1,204 Reviews))" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="24dp" />
+
+            <!-- BRANDING -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Branding (Paste Image URLs)" android:textColor="#111827" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="12dp"/>
+            <EditText android:id="@+id/etSettingsLogoUrl" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Logo Image URL" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="12dp" />
+            <EditText android:id="@+id/etSettingsCoverUrl" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Cover Image URL" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="24dp" />
+
+            <!-- PROMOTIONS -->
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Promotional Banner" android:textColor="#111827" android:textStyle="bold" android:textSize="16sp" android:layout_centerVertical="true"/>
+                <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/switchPromo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <EditText android:id="@+id/etSettingsPromoHeadline" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Promo Title (e.g. Promotions Available)" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="12dp" />
+            <EditText android:id="@+id/etSettingsPromoSubtext" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Promo Pill Text (e.g. ✨ HAPPY HOUR...)" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="24dp" />
+
+            <!-- UTILITY -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Utility &amp; Wi-Fi" android:textColor="#111827" android:textStyle="bold" android:textSize="16sp" android:layout_marginBottom="12dp"/>
+            <EditText android:id="@+id/etSettingsHours" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Operating Hours (e.g. 11:00 AM to 9:00 PM)" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="12dp" />
+            <EditText android:id="@+id/etSettingsWifiSSID" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Wi-Fi Network Name" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="12dp" />
+            <EditText android:id="@+id/etSettingsWifiPass" android:layout_width="match_parent" android:layout_height="56dp" android:hint="Wi-Fi Password" android:textColorHint="#6B7280" android:textColor="#111827" android:background="@drawable/rounded_edittext_bg" android:paddingHorizontal="16dp" android:layout_marginBottom="32dp" />
+
+            <com.google.android.material.button.MaterialButton android:id="@+id/btnSaveSettings" android:layout_width="match_parent" android:layout_height="60dp" android:text="Save Changes" android:textColor="#FFFFFF" android:textSize="16sp" android:textStyle="bold" app:backgroundTint="#111827" app:cornerRadius="12dp" android:layout_marginBottom="32dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

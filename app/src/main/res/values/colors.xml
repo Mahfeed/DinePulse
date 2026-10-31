@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Luxury Primary Brand Colors -->
+    <color name="colorPrimary">#111827</color> <!-- Deep Charcoal / Onyx -->
+    <color name="colorPrimaryVariant">#000000</color> <!-- Pure Black -->
+    <color name="colorAccent">#D4AF37</color> <!-- Champagne Gold (Luxury Accent) -->
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="colorBackground">#F8F9FA</color> <!-- Premium Off-White -->
+    <color name="colorSurface">#FFFFFF</color> <!-- Crisp White Card -->
+
+    <!-- 🛠️ Standard Colors (Fixes the AAPT error) -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#111827</color>
+    <color name="colorTextSecondary">#6B7280</color>
+
+    <!-- UI States -->
+    <color name="colorSuccess">#10B981</color> <!-- Emerald Green -->
+    <color name="colorError">#E53935</color> <!-- Ruby Red -->
+</resources>

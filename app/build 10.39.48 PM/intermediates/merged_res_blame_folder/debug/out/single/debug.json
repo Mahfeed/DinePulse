@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_analytics.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_analytics.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/drawable_bg_table_alert.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/drawable/bg_table_alert.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_floor_plan.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_floor_plan.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_register2.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_register2.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/drawable_bg_table_normal.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/drawable/bg_table_normal.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_floor_plan2.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_floor_plan2.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_login2.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_login2.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_guest_menu.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_guest_menu.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_manager_dashboard.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_manager_dashboard.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_item_stock_toggle.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/item_stock_toggle.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_login.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/xml_backup_rules.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_item_menu_card.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/item_menu_card.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/layout_activity_register.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dinepulse.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.dinepulse.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

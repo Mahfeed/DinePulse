@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_bg"
+    android:padding="24dp">
+
+    <!-- Drag Handle -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:background="#E5E7EB"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/sheetItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textColor="#111827"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customize your order"
+        android:textColor="#6B7280"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Spice Level (Radio Group - Choose 1) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spice Level (Required)"
+        android:textColor="#111827"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSpice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/radioMild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mild"
+            android:buttonTint="#006AFF"/>
+        <RadioButton
+            android:id="@+id/radioMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:checked="true"
+            android:buttonTint="#006AFF"/>
+        <RadioButton
+            android:id="@+id/radioSpicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spicy"
+            android:buttonTint="#006AFF"/>
+    </RadioGroup>
+
+    <!-- Add-Ons (Checkboxes - Choose Multiple) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add-ons (Optional)"
+        android:textColor="#111827"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/checkEgg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Boiled Egg (+৳30)"
+        android:buttonTint="#006AFF"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/checkSalad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra Salad (+৳20)"
+        android:buttonTint="#006AFF"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Final Add Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConfirmAdd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Add to Cart - ৳0.00"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#006AFF"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>

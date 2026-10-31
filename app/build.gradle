@@ -1,0 +1,64 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.google.services)
+}
+
+android {
+    namespace 'com.example.dinepulse'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.dinepulse"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation libs.activity.ktx
+    implementation libs.appcompat
+    implementation libs.constraintlayout
+    implementation libs.material
+    testImplementation libs.junit
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.ext.junit
+
+    // Firebase
+    implementation libs.firebase.auth
+    implementation libs.play.services.auth
+    implementation libs.firebase.firestore
+    implementation 'com.google.firebase:firebase-storage:20.3.0'
+
+    // UI & Media
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation 'com.airbnb.android:lottie:6.4.0' // <-- ADDED LOTTIE HERE
+
+    // ZXing for QR Code Generation
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    implementation 'com.google.zxing:core:3.4.1'
+
+    // Google ML Kit for high-speed Barcode/QR Scanning
+    implementation 'com.google.mlkit:barcode-scanning:17.3.0'
+
+    // CameraX (Android 15 16KB page size compatibility)
+    def camerax_version = "1.4.2"
+    implementation "androidx.camera:camera-core:${camerax_version}"
+    implementation "androidx.camera:camera-camera2:${camerax_version}"
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    implementation "androidx.camera:camera-view:${camerax_version}"
+}
+

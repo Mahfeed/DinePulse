@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DinePulse" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your dark theme attributes here -->
+        <!-- Optional: Obsidian-like background color override -->
+        <item name="android:windowBackground">#121212</item>
+    </style>
+
+    <style name="Theme.DinePulse" parent="Base.Theme.DinePulse" />
+</resources>
